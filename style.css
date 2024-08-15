@@ -340,3 +340,48 @@ html,body{
     color: #ffc342;
 }
 
+
+
+@media(max-width: 768px){
+    #nav{
+        max-width: 500px;
+    }
+    #nav #menu{
+        display: none;
+    }
+    #b-heading{
+        /* padding: 30vw 20vw; */
+    }
+    #b-heading h1{
+        font-size: 10vw;
+        
+    }
+
+    #form #date{
+    }
+
+    #services{
+        display: flex;
+        flex-direction: column;
+        /* grid-template-rows: repeat(3, 1fr); */
+        gap: -100vh;
+    }
+
+    #cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footor{
+        display: flex;
+        flex-direction: column;
+        /* background-image: none; */
+        /* background-color: #000; */
+    }
+
+}
